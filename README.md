@@ -2,4 +2,4 @@
 
 Pagina web de la barberia 'Alura' creado por PINAT, Juan Matias.
 
-https://juanmatiaspinat.github.io/barberiaAlura/
+<link href="https://juanmatiaspinat.github.io/barberiaAlura/">Link del deploy la pagina (Git Pages)<link>
