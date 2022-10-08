@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Contacto - Barbería Alura</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <!-- Cuerpo de la pagina Contacto -->
+    <body>
+        <!-- Encabezado -->
+        <header>
+            <div class="caja">
+                <h1><img class="logo" src="imagenes/logo-blanco2.png"></h1>
+                <nav>
+                    <ul class="titulos">
+                        <li>
+                            <a href="/index.html">INICIO</a>
+                        </li>
+                        <li>
+                            <a href="/productos.html">PRODUCTOS</a>
+                        </li>
+                        <li>
+                            <a href="/contacto.html">CONTACTO</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!-- Parte principal de la pagina -->
+        <main>
+            <!-- Sección de formulario, tipo de contacto y turno-->
+            <form>
+                <!-- Formulario -->
+                <fieldset>
+                    <label class="titulosForm" for="nombreapellido">Nombre y apellido</label>
+                    <input type="text" id="nombreapellido" class="input-contacto" required placeholder="Nombre, Apellido">
+
+                    <label class="titulosForm" for="correoelectronico">Correo electronico</label>
+                    <input type="email" id="correoelectronico" class="input-contacto" required placeholder="Email@dominio.com">
+
+                    <label class="titulosForm" for="telefono">Telefono</label>
+                    <input type="tel" id="telefono" class="input-contacto" required placeholder="(Cod. area) XXX XXX">
+
+                    <label class="titulosForm" for="mensaje">Mensaje</label>
+                    <textarea cols="70" rows="10" id="mensaje" class="input-contacto" required placeholder="Escriba su mensaje..."></textarea>
+                </fieldset>
+                <!-- Tipo de contacto -->
+                <fieldset class="sector-contacto">
+                    <legend class="titulo-contacto">¿Cómo le gustaría que lo contactemos?</legend>
+                    <label class="items-contacto" for="radio-email"><input type="radio" name="my-input" value="email" checked> Email</label>
+                    <br>
+                    <label class="items-contacto" for="radio-telefono"><input type="radio" name="my-input" value="telefono"> Telefono</label>
+                    <br>
+                    <label class="items-contacto" for="radio-whatsapp"><input type="radio" name="my-input" value="whatsapp"> WhatsApp</label>
+                </fieldset>
+                <!-- Turno -->
+                <fieldset class="sector-turno">
+                    <legend>¿En cuál horario prefiere ser atendido?</legend>
+                    <select>
+                        <option>Mañana</option>
+                        <option>Tarde</option>
+                        <option>Noche</option>
+                    </select>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Día</th>
+                                <th>Horario</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Lunes</td>
+                                <td>08hs ~ 20hs</td>
+                            </tr>
+                            <tr>
+                                <td>Miercoles</td>
+                                <td>08hs ~ 20hs</td>
+                            </tr>
+                            <tr>
+                                <td>Viernes</td>
+                                <td>08hs ~ 20hs</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </fieldset>
+                <fieldset>
+                    <label class="checkbox"><input type="checkbox" checked>¿Le gustaria recibir novedades de la Barberia Alura?</label>
+                </fieldset>
+                <fieldset>
+                    <input type="submit" value="Enviar" class="boton">
+                </fieldset>
+            </form>
+        </main>
+        <!-- Pie de pagina -->
+        <footer>
+            <img src="imagenes/logo-blanco2.png">
+            <p><h2>&copy Copyright Barbería Alura - 2022</h2></p>
+            <p><h3>By: PINAT, Juan Matias 😎</h3></p>
+            <div>
+                <a href="https://www.linkedin.com/in/juanmatiaspinat/" target="_blank"><img id="LinkedIn" src="imagenes/logoLinkedIn.png" alt=""></a>
+                <a href="https://www.github.com/juanmatiaspinat" target="_blank"><img id="Github" src="imagenes/logoGithub.png" alt=""></a>
+            </div>
+        </footer>
+    
