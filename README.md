@@ -1,4 +1,3 @@
-# barberiaAlura
-Sitio de la Barbería de Alura creado por Luis Vargas 19 de Agosto de 2022
+# Barberia Alura
 
-Parte del Programa Oracle Next Education
+Pagina web de la barberia 'Alura' creado por PINAT, Juan Matias.
