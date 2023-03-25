@@ -10,4 +10,4 @@ Pagina web de la barberia Alura (con puro HTML5 y CSS3).
 
 [go](http://stackoverflow.com){:target="_blank" rel="noopener"}
 
-[link](http://stackoverflow.com){:target="_blank"}
+[link](http://stackoverflow.com){target="_blank"}
