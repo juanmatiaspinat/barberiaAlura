@@ -8,4 +8,4 @@ Pagina web de la barberia Alura (con puro HTML5 y CSS3).
 [go](https://juanmatiaspinat.github.io/barberiaAlura/){:target="_blank" rel="noopener"}
 
 
-[LINK text itself]: (https://juanmatiaspinat.github.io/barberiaAlura/)
+[LINK text itself]: (https://juanmatiaspinat.github.io/barberiaAlura/){:target="_blank"}
