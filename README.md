@@ -11,9 +11,6 @@ Pagina web de la barberia Alura (con puro HTML5 y CSS3).
 [go](http://stackoverflow.com){:target="_blank"}
 
 ---
+<a href="./product/download.html" target="_top">TOP</a>
 
-Live Demo: [demo](https://example.com){:target="_blank"} //kramdown
-
-Live Demo: [demo](https://example.com){target="_blank"} //markdown
-
-Live Demo: <a href="https://example.com" target="_blank">demo</a> //html
+<a href="./product/download.html" target="_blank">BLANK</a>
