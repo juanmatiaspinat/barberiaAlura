@@ -4,13 +4,14 @@ Pagina web de la barberia Alura (con puro HTML5 y CSS3).
 
 [LINK](https://juanmatiaspinat.github.io/barberiaAlura/)
 
-[LINK](https://juanmatiaspinat.github.io/barberiaAlura/ target="_blank")
+<https://ejemplo.com>
+`https://ejemplo.com`
 
-[go](http://stackoverflow.com){:target="_blank" rel="noopener"}
+paragraph with [a style me span]{.red}
 
-[go](http://stackoverflow.com){:target="_blank"}
-
----
-<a href="./product/download.html" target="_top">TOP</a>
-
-<a href="./product/download.html" target="_blank">BLANK</a>
+<html>
+<body>
+<p>Hola <a href="http://es.stackoverflow.com" onclick="window.open('#','_blank');window.open(this.href,'_self');">
+Abre en una nueva ventana es.stackoverflow.com </a> , pero continua en la misma!</p>
+</body>
+</html>
